@@ -22,14 +22,16 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "build-local": "PUBLIC_URL=./ craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "craco eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app",
+    "rules": {
+      "eqeqeq": "off",
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
