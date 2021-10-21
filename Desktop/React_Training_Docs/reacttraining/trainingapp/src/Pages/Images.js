@@ -13,7 +13,15 @@
 import React from "react";
 
 const Images = () => {
-  return <div className="flex items-stretch...">Images Page</div>;
+  return (
+    <div className="bg-gray-400 rounded shadow-2xl p-2 inline-block">
+      <div className="text-gray-800 font-bold text-center">Images</div>
+      <div className="grid grid-rows-2 gap-2">
+        <div className="mt-2 w-96">paragraph 1</div>
+        <div className="mt-2">paragraph 1</div>
+      </div>
+    </div>
+  );
 };
 
 export default Images;

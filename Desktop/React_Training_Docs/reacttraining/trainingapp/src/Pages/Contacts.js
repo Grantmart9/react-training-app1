@@ -14,7 +14,7 @@ import React from "react";
 
 const Contacts = () => {
   return (
-    <div className="bg-gray-400 rounded shadow-md p-2 inline-block">
+    <div className="bg-gray-400 rounded shadow-2xl p-2 inline-block">
       <div className="text-gray-800 font-bold text-center">Contacts Page</div>
       <div className="grid grid-rows-2 gap-2">
         <div className="mt-2 w-96">paragraph 1</div>
